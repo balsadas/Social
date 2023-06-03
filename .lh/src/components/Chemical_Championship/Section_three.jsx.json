@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/components/Chemical_Championship/Section_three.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1678347937995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678347944573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,10 @@\n-r\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+function Section_three() {\r\n+  return (\r\n+    <div\r\n+    >Section_three</div>\r\n+  )\r\n+}\r\n+\r\n+export default Section_three\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678348574257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import React from 'react'\r\n \r\n function Section_three() {\r\n-  return (\r\n-    <div\r\n-    >Section_three</div>\r\n-  )\r\n+    return (\r\n+        <div\r\n+        >\r\n+        </div>\r\n+    )\r\n }\r\n \r\n export default Section_three\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678348581007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_three() {\r\n     return (\r\n-        <div\r\n-        >\r\n+        <div>\r\n+            \r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678348586624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_three() {\r\n     return (\r\n         <div>\r\n-            \r\n+            <dI\r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678348597105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_three() {\r\n     return (\r\n-        <div>\r\n-            <dI\r\n+        <div >\r\n+            \r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678348602465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_three() {\r\n     return (\r\n-        <div cla>\r\n+        <div className=''>\r\n             \r\n         </div>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1678348650802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_three() {\r\n     return (\r\n-        <div className='w-full fl'>\r\n+        <div className='w-full fle'>\r\n             \r\n         </div>\r\n     )\r\n }\r\n"
+                }
+            ],
+            "date": 1678347937995,
+            "name": "Commit-0",
+            "content": "r"
+        }
+    ]
+}

@@ -1,0 +1,574 @@
+{
+    "sourceFile": "src/components/Section_One.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 139,
+            "patches": [
+                {
+                    "date": 1678172817846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678172825977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,10 @@\n-r\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+function Section_One() {\r\n+  return (\r\n+    <div>\r\n+        Section_One</div>\r\n+  )\r\n+}\r\n+\r\n+export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678172831876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n-  return (\r\n-    <div>\r\n-        Section_One</div>\r\n-  )\r\n+    return (\r\n+        <div>\r\n+            Section_One\r\n+            </div>\r\n+    )\r\n }\r\n \r\n export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678172841177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div>\r\n-            Section_One\r\n-            </div>\r\n+            \r\n+        </div>\r\n     )\r\n }\r\n \r\n export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173037487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div>\r\n-            \r\n+            u\r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678173037594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div>\r\n-            u\r\n+            ul\r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678173078769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div>\r\n-            ul\r\n+            <\r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678173083981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div>\r\n-            <\r\n+            <ul>\r\n+                <L\r\n+            </ul>\r\n         </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678173089995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div>\r\n             <ul>\r\n-                <L\r\n+                <l\r\n             </ul>\r\n         </div>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1678173105704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n function Section_One() {\r\n     return (\r\n         <div>\r\n             <ul>\r\n-                <l\r\n+                <li>\r\n+                    S\r\n+                </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1678173111014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div>\r\n             <ul>\r\n                 <li>\r\n-                    S\r\n+                    Science \r\n                 </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n"
+                },
+                {
+                    "date": 1678173117138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div>\r\n             <ul>\r\n                 <li>\r\n-                    Science \r\n+                    Science and t\r\n                 </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n"
+                },
+                {
+                    "date": 1678173117383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div>\r\n             <ul>\r\n                 <li>\r\n-                    Science and t\r\n+                    Science and te\r\n                 </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n"
+                },
+                {
+                    "date": 1678173219872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,11 @@\n     return (\r\n         <div>\r\n             <ul>\r\n                 <li>\r\n-                    Science and te\r\n+                    Science and technology\r\n                 </li>\r\n+                \r\n             </ul>\r\n         </div>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1678173226998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,14 @@\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n                 \r\n             </ul>\r\n         </div>\r\n     )\r\n"
+                },
+                {
+                    "date": 1678173235522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,17 @@\n                 </li>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n-                \r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n+                <li>\r\n+                    M\r\n+                </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1678173242647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,12 +16,12 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    Science and technology\r\n+                    S\r\n                 </li>\r\n                 <li>\r\n-                    M\r\n+                    Media\r\n                 </li>\r\n             </ul>\r\n         </div>\r\n     )\r\n"
+                },
+                {
+                    "date": 1678173248268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    S\r\n+                    Student A\r\n                 </li>\r\n                 <li>\r\n                     Media\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173254509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    Student A\r\n+                    Student Activit\r\n                 </li>\r\n                 <li>\r\n                     Media\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173265778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,12 +13,12 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    Science and technology\r\n+                    S\r\n                 </li>\r\n                 <li>\r\n-                    Student Activit\r\n+                    Student Activities\r\n                 </li>\r\n                 <li>\r\n                     Media\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173271743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    S\r\n+                    SGD Agenda 2\r\n                 </li>\r\n                 <li>\r\n                     Student Activities\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173282583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,12 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    Science and technology\r\n+                    w\r\n                 </li>\r\n                 <li>\r\n-                    SGD Agenda 2\r\n+                    SGD Agenda 2030\r\n                 </li>\r\n                 <li>\r\n                     Student Activities\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173288390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    w\r\n+                    Wo\r\n                 </li>\r\n                 <li>\r\n                     SGD Agenda 2030\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173299235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,12 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    Science and technology\r\n+                    U\r\n                 </li>\r\n                 <li>\r\n-                    Wo\r\n+                    World news\r\n                 </li>\r\n                 <li>\r\n                     SGD Agenda 2030\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173305219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    U\r\n+                    University \r\n                 </li>\r\n                 <li>\r\n                     World news\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173325422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div>\r\n+        <div >\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n-                    University \r\n+                    University news\r\n                 </li>\r\n                 <li>\r\n                     World news\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173330588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div >\r\n+        <div className='w-'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173336363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-'>\r\n+        <div className='w-[100%]'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173342814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%]'>\r\n+        <div className='w-[100%] bg-'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173358002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-'>\r\n+        <div className='w-[100%] bg-blur-4'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173377496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-blur-4'>\r\n+        <div className='w-[100%] bg-blur-40'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173383537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-blur-40'>\r\n+        <div className='w-[100%] b'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173383986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] b'>\r\n+        <div className='w-[100%] bg'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173490587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg'>\r\n+        <div className='w-[100%] b'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173496339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] b'>\r\n+        <div className='w-[100%] bg-blur'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173503190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-blur'>\r\n+        <div className='w-[100%] bg-blur-1'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173503289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-blur-1'>\r\n+        <div className='w-[100%] bg-blur-10'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173527586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-blur-10'>\r\n+        <div className='w-[100%] bg-b-100'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173538752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-b-100'>\r\n+        <div className='w-[100%] bg-gree-100'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173700087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gree-100'>\r\n+        <div className='w-[100%] bg-'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173714008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-'>\r\n+        <div className='w-[100%] bg-['>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173720228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-['>\r\n+        <div className='w-[100%] bg-[gr'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173726974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-[gr'>\r\n+        <div className='w-[100%] bg-[£0'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173732178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-[£0'>\r\n+        <div className='w-[100%] bg-[£0085F'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678173738610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-[£0085F'>\r\n+        <div className='w-[100%] bg-[0085FF]'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174716706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-[0085FF]'>\r\n+        <div className='w-[100%] bg-t'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174716841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-t'>\r\n+        <div className='w-[100%] bg-to'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174724896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to'>\r\n+        <div className='w-[100%] bg-to-r from['>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174752353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from['>\r\n+        <div className='w-[100%] bg-to-r from-[#'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174759550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from-[#'>\r\n+        <div className='w-[100%] bg-to-r from-[#0085FF]'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174764743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from-[#0085FF]'>\r\n+        <div className='w-[100%] bg-to-r from-[#0085FF] to-['>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174770865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from-[#0085FF] to-['>\r\n+        <div className='w-[100%] bg-to-r from-[#0085FF] to-[#1CA'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174799633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from-[#0085FF] to-[#1CA'>\r\n+        <div className='w-[100%] bg-to-r from-[#0085FF] to-[#1CA2ED]1'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174841720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-to-r from-[#0085FF] to-[#1CA2ED]1'>\r\n+        <div className='w-[100%] bg--to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174891385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg--to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-rgradient-to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678174899176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-rgradient-to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-radicalgradient-to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175061725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-radicalgradient-to-r from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-gradient-to- from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175077413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to- from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175089756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-gradient- from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175104119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient- from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-gradient-to-l- from-[#0085FF] to-[#1CA2ED]19'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175257955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-l- from-[#0085FF] to-[#1CA2ED]19'>\r\n+        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]1'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175258101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]1'>\r\n+        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175266662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to from-[#0085FF] to-[#1CA2ED]'>\r\n+        <div className='w-[100%] bg-gradient-to- from-[#0085FF] to-[#1CA2ED]'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175366964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to- from-[#0085FF] to-[#1CA2ED]'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] '>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175374042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] '>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] fle'>\r\n             <ul>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175380203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] fle'>\r\n-            <ul>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] '>\r\n+            <ul className='f'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175380364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] '>\r\n-            <ul className='f'>\r\n+            <ul className='fl'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175395890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] '>\r\n-            <ul className='fl'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  '>\r\n+            <ul className='flex'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175417453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  '>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p- '>\r\n             <ul className='flex'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175433116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p- '>\r\n-            <ul className='flex'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n+            <ul className='flex '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175613587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import React from 'react'\r\n+\r\n+function Section_One() {\r\n+    return (\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n+            <ul className='flex justify-eve'>\r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n+                <li>\r\n+                    University news\r\n+                </li>\r\n+                <li>\r\n+                    World news\r\n+                </li>\r\n+                <li>\r\n+                    SGD Agenda 2030\r\n+                </li>\r\n+                <li>\r\n+                    Student Activities\r\n+                </li>\r\n+                <li>\r\n+                    Media\r\n+                </li>\r\n+            </ul>\r\n+        </div>\r\n+    )\r\n+}\r\n+\r\n+export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678175613797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex justify-eve'>\r\n+            <ul className='flex justify-even'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n@@ -26,35 +26,5 @@\n         </div>\r\n     )\r\n }\r\n \r\n-export default Section_One\n-import React from 'react'\r\n-\r\n-function Section_One() {\r\n-    return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex '>\r\n-                <li>\r\n-                    Science and technology\r\n-                </li>\r\n-                <li>\r\n-                    University news\r\n-                </li>\r\n-                <li>\r\n-                    World news\r\n-                </li>\r\n-                <li>\r\n-                    SGD Agenda 2030\r\n-                </li>\r\n-                <li>\r\n-                    Student Activities\r\n-                </li>\r\n-                <li>\r\n-                    Media\r\n-                </li>\r\n-            </ul>\r\n-        </div>\r\n-    )\r\n-}\r\n-\r\n export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678175639325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex justify-even'>\r\n+            <ul className='flex justify-evenly '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175645008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex justify-evenly '>\r\n+            <ul className='flex justify-evenly w-[6'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175645152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex justify-evenly w-[6'>\r\n+            <ul className='flex justify-evenly w-[60'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175656204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 '>\r\n-            <ul className='flex justify-evenly w-[60'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 f'>\r\n+            <ul className='flex justify-evenly w-[60%]'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175665613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 f'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justc'>\r\n             <ul className='flex justify-evenly w-[60%]'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678175694897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justc'>\r\n-            <ul className='flex justify-evenly w-[60%]'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n+            <ul className='flex justify-evenly w-[0%]'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175783659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[0%]'>\r\n+            <ul className='flex justify-evenly w-[70%] '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175796525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] '>\r\n+            <ul className='flex justify-evenly w-[70%] text-white'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175801976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678175814264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white '>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176171202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176177919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold '>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-['>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176183816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-['>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-[100%]-lg'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176322091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-[100%]-lg'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-f-lg'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176805858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold w-f-lg'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176811527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import React from 'react'\r\n+\r\n+function Section_One() {\r\n+    return (\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg'>\r\n+                <li>\r\n+                    Science and technology\r\n+                </li>\r\n+                <li>\r\n+                    University news\r\n+                </li>\r\n+                <li>\r\n+                    World news\r\n+                </li>\r\n+                <li>\r\n+                    SGD Agenda 2030\r\n+                </li>\r\n+                <li>\r\n+                    Student Activities\r\n+                </li>\r\n+                <li>\r\n+                    Media\r\n+                </li>\r\n+            </ul>\r\n+        </div>\r\n+    )\r\n+}\r\n+\r\n+export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678176818165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg:w-'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n@@ -26,35 +26,5 @@\n         </div>\r\n     )\r\n }\r\n \r\n-export default Section_One\n-import React from 'react'\r\n-\r\n-function Section_One() {\r\n-    return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold '>\r\n-                <li>\r\n-                    Science and technology\r\n-                </li>\r\n-                <li>\r\n-                    University news\r\n-                </li>\r\n-                <li>\r\n-                    World news\r\n-                </li>\r\n-                <li>\r\n-                    SGD Agenda 2030\r\n-                </li>\r\n-                <li>\r\n-                    Student Activities\r\n-                </li>\r\n-                <li>\r\n-                    Media\r\n-                </li>\r\n-            </ul>\r\n-        </div>\r\n-    )\r\n-}\r\n-\r\n export default Section_One\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678176823448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg:w-'>\r\n+            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg:w-[100%'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176856927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly w-[70%] text-white font-semibold lg:w-[100%'>\r\n+            <ul className='flex justify-evenly xw-[70%] text-white font-semibold lg:w-[100%]'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176904761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xw-[70%] text-white font-semibold lg:w-[100%]'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176910599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] '>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] m'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176910724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] m'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176919288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:p'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176919398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:p'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176924868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:p-'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176932398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:p-'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-4'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176942074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-4'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176974838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176980558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 '>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678176996271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center '>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678177002378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center '>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md;'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678177007951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md;'>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:it'>\r\n                 <li>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678177086629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:it'>\r\n-                <li>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+                <li >\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177093086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li >\r\n+                <li className='hover:'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177739651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:'>\r\n+                <li className='hover:b'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177745207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:b'>\r\n+                <li className='hover:bg-whit'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177745319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-whit'>\r\n+                <li className='hover:bg-white'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177750660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-white'>\r\n+                <li className='hover:bg-white-299\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177756803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-white-299\r\n+                <li className='hover:bg-white-20'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177770858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-white-20'>\r\n+                <li className=''>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177781081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+            <ul className='flex  justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className=''>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678177787332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex  justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className=''>\r\n+            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+                <li className='b'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177793376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='b'>\r\n+                <li className='bg-gradient-'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177799447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='bg-gradient-'>\r\n+                <li className='bg-gradient-to-r'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177807078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='bg-gradient-to-r'>\r\n+                <li className='bg-gradient-to-r '>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177819615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='bg-gradient-to-r '>\r\n+                <li className='bg-gradient-to-r t'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177864398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='bg-gradient-to-r t'>\r\n+                <li className='bg-[#86bdf0'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177877486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='bg-[#86bdf0'>\r\n+                <li className='hbg-[#86bdf0]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177877655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hbg-[#86bdf0]'>\r\n+                <li className='hobg-[#86bdf0]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177903308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hobg-[#86bdf0]'>\r\n+                <li className='hover:bg-[#6db0ed]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177910331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#6db0ed]'>\r\n+                <li className='hover:bg-[#66abec]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177917352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#66abec]'>\r\n+                <li className='hover:bg-[#60aaf0]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177924302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf0]'>\r\n+                <li className='hover:bg-[#60aaf0da]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177929812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf0da]'>\r\n+                <li className='hover:bg-[#60aaf098]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177937267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf098]'>\r\n+                <li className='hover:bg-[#60aaf065]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177944508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf065]'>\r\n+                <li className='hover:bg-[#60aaf067]'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177950801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf067]'>\r\n+                <li className='hover:bg-[#60aaf067] h'>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177967931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n             <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n-                <li className='hover:bg-[#60aaf067] h'>\r\n+                <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n                     University news\r\n"
+                },
+                {
+                    "date": 1678177984391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center'>\r\n-            <ul className='flex justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center '>\r\n+            <ul className='flex h-full justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678178013578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED] p-8 flex justify-center '>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-full'>\r\n             <ul className='flex h-full justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678178023391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-full'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-'>\r\n             <ul className='flex h-full justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n"
+                },
+                {
+                    "date": 1678178047512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n-        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-'>\r\n-            <ul className='flex h-full justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+        <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n+            <ul className='flex h- justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678178969288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-import React from 'react'\r\n+import React, from 'react'\r\n \r\n function Section_One() {\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n-            <ul className='flex h- justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n+            <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n                     Science and technology\r\n                 </li>\r\n                 <li>\r\n"
+                },
+                {
+                    "date": 1678178976919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n-import React, from 'react'\r\n+import React,{useState} from 'react'\r\n \r\n function Section_One() {\r\n+    \r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n             <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n"
+                },
+                {
+                    "date": 1678178982763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React,{useState} from 'react'\r\n \r\n function Section_One() {\r\n-    \r\n+    const [a]\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n             <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n"
+                },
+                {
+                    "date": 1678178988479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React,{useState} from 'react'\r\n \r\n function Section_One() {\r\n-    const [a]\r\n+    const [active,s]\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n             <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n"
+                },
+                {
+                    "date": 1678178988919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React,{useState} from 'react'\r\n \r\n function Section_One() {\r\n-    const [active,se]\r\n+    const [active,set]\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n             <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n"
+                },
+                {
+                    "date": 1678179002194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React,{useState} from 'react'\r\n \r\n function Section_One() {\r\n-    const [active,setActive]= u\r\n+    const [active,setActive]= us\r\n     return (\r\n         <div className='w-[100%] bg-gradient-to-r from-[#0085FF] to-[#1CA2ED]  flex justify-center h-[5rem]'>\r\n             <ul className='flex h-[5rem] justify-evenly xl:w-[70%] text-white font-semibold lg:w-[100%] md:pr-8 text-center md:items-center'>\r\n                 <li className='hover:bg-[#60aaf067] '>\r\n"
+                }
+            ],
+            "date": 1678172817846,
+            "name": "Commit-0",
+            "content": "r"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .prag{
+        @apply font-bold text-[3rem]
+    }    
+}
+
+
+@layer base {
+    button{
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
+
+

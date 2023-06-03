@@ -1,0 +1,82 @@
+{
+    "sourceFile": "src/components/Chemical_Championship/Section_Two.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1678206064823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678340357887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,10 @@\n-r\n\\ No newline at end of file\n+import React from 'react'\r\n+\r\n+function Section_Two() {\r\n+  return (\r\n+    <div>\r\n+      Section_Two</div>\r\n+  )\r\n+}\r\n+\r\n+export default Section_Two\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678340800894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n \r\n function Section_Two() {\r\n   return (\r\n     <div>\r\n-      Section_Two</div>\r\n+      \r\n+    </div>\r\n   )\r\n }\r\n \r\n export default Section_Two\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678340873969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n function Section_Two() {\r\n   return (\r\n     <div>\r\n-      \r\n+      <\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678340880951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \r\n function Section_Two() {\r\n   return (\r\n     <div>\r\n-      <\r\n+      <div>\r\n+        \r\n+      </div>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1678340901686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Section_Two() {\r\n   return (\r\n     <div>\r\n       <div>\r\n-        \r\n+        <\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340907962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n function Section_Two() {\r\n   return (\r\n     <div>\r\n       <div>\r\n-        <\r\n+        <div>\r\n+          \r\n+        </div>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340918165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,11 @@\n   return (\r\n     <div>\r\n       <div>\r\n         <div>\r\n-          \r\n+          <img src=\"\" alt=\"\" />\r\n         </div>\r\n+        \r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340927917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <div>\r\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n-        \r\n+        h\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340928039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <div>\r\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n-        h\r\n+        h4\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340933589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <div>\r\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n-        h4\r\n+        <h4>News </h4>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340939452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <div>\r\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n-        <h4>News </h4>\r\n+        <h4>News titl</h4>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678340964234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n       <div>\r\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n-        <h4>News titl</h4>\r\n+        <h4>News title</h4>\r\n+        \r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678341770786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n         <h4>News title</h4>\r\n-        \r\n+        ,\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678341876664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n         <h4>News title</h4>\r\n-        ,\r\n+        <p>l</p>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678341881920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n         <h4>News title</h4>\r\n-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis ullam optio quo autem officia voluptates omnis tempora. Eligendi ea ratione dolorum nostrum quaerat. Minus o</p>\r\n+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis ullam optio quo autem officia voluptates omnis tempora. Eligendi ea ratione dolorum nostrum quaerat. Minus</p>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1678341881993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n         <div>\r\n           <img src=\"\" alt=\"\" />\r\n         </div>\r\n         <h4>News title</h4>\r\n-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis ullam optio quo autem officia voluptates omnis tempora. Eligendi ea ratione dolorum nostrum quaerat. Minu</p>\r\n+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis ullam optio quo autem officia voluptates omnis tempora. Eligendi ea ratione dolorum nostrum quaerat. Mi</p>\r\n       </div>\r\n     </div>\r\n   )\r\n }\r\n"
+                }
+            ],
+            "date": 1678206064823,
+            "name": "Commit-0",
+            "content": "r"
+        }
+    ]
+}

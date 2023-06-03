@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/components/Chemical_Championship/Section.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1678206377438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678206383605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import React, { useState } from 'react'\r\n+import { Link } from 'react-router-dom'\r\n import Section_One from './Section_One'\r\n \r\n function Section() {\r\n     const [active,setActive] = useState(0)\r\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n-            < title='Science and Technology'>\r\n+            <Link  title='Science and Technology'>\r\n                 Science and Technology\r\n-            </>\r\n+            </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n             <div title='World news'>\r\n"
+                },
+                {
+                    "date": 1678206389594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [active,setActive] = useState(0)\r\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n-            <Link  title='Science and Technology'>\r\n+            <Link to={} title='Science and Technology'>\r\n                 Science and Technology\r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n"
+                },
+                {
+                    "date": 1678206417789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [active,setActive] = useState(0)\r\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n-            <Link to={} title='Science and Technology'>\r\n+            <Link to='/Science_and_Technology' title='Science and Technology'>\r\n                 Science and Technology\r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n"
+                },
+                {
+                    "date": 1678206525951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n             <Link to='/Science_and_Technology' title='Science and Technology'>\r\n-                Science and Technology\r\n+                \r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1678206531122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n             <Link to='/Science_and_Technology' title='Science and Technology'>\r\n-                \r\n+                <Section_Tw\r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1678206692563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import React, { useState } from 'react'\r\n import { Link } from 'react-router-dom'\r\n import Section_One from './Section_One'\r\n+import Section_Two from './Section_Two'\r\n \r\n function Section() {\r\n     const [active,setActive] = useState(0)\r\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n             <Link to='/Science_and_Technology' title='Science and Technology'>\r\n-                <Section_Tw\r\n+                \r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1678206785582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n             <Link to='/Science_and_Technology' title='Science and Technology'>\r\n-                \r\n+                <Section_Two/>\r\n             </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1678206790980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     const [active,setActive] = useState(0)\r\n   return (\r\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n-            <Link title='Science and Technology'>\r\n+            <Lin title='Science and Technology'>\r\n                 Science and Technology\r\n             </Lin>\r\n             <div title='University news'>\r\n                 University news\r\n"
+                },
+                {
+                    "date": 1678206791124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <div>\r\n         <Section_One active={active} setActive={setActive}>\r\n             <Link title='Science and Technology'>\r\n                 Science and Technology\r\n-            </Lin>\r\n+            </Link>\r\n             <div title='University news'>\r\n                 University news\r\n             </div>\r\n             <div title='World news'>\r\n"
+                }
+            ],
+            "date": 1678206377438,
+            "name": "Commit-0",
+            "content": "import React, { useState } from 'react'\r\nimport Section_One from './Section_One'\r\n\r\nfunction Section() {\r\n    const [active,setActive] = useState(0)\r\n  return (\r\n    <div>\r\n        <Section_One active={active} setActive={setActive}>\r\n            < title='Science and Technology'>\r\n                Science and Technology\r\n            </>\r\n            <div title='University news'>\r\n                University news\r\n            </div>\r\n            <div title='World news'>\r\n                World news\r\n            </div>\r\n            <div title='SGD Agenda 2030'>\r\n                SGD Agenda 2030\r\n            </div>\r\n            <div title='Student Activities'>\r\n                Student Activities\r\n            </div>\r\n            <div title=' Media'>\r\n                Media\r\n            </div>\r\n        </Section_One>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Section"
+        }
+    ]
+}

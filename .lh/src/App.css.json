@@ -1,0 +1,82 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1678009267197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678009281345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n   from {\n     transform: rotate(0deg);\n   }\n   to {\n-    transform: rotate(30deg);\n+    transform: rotate(10deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009296035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n   from {\n     transform: rotate(0deg);\n   }\n   to {\n-    transform: rotate(10deg);\n+    transform: rotate(0deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009314103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n   from {\n     transform: rotate(0deg);\n   }\n   to {\n-    transform: rotate(0deg);\n+    transform: rotate(deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009340344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n }\n \n @keyframes App-logo-spin {\n   from {\n-    transform: rotate(0deg);\n+    transform: rotateX(0deg);\n   }\n   to {\n-    transform: rotate(deg);\n+    transform: rotate(45deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009346436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n   from {\n     transform: rotateX(0deg);\n   }\n   to {\n-    transform: rotate(45deg);\n+    transform: rotateX(5deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009364158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n }\n \n @keyframes App-logo-spin {\n   from {\n-    transform: rotateX(0deg);\n+    transform: rotate(0deg);\n   }\n   to {\n-    transform: rotateX(5deg);\n+    transform: rotateX(360deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009409920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n @media (prefers-reduced-motion: no-preference) {\n   .App-logo {\n-    animation: App-logo-spin infinite 20s linear;\n+    animation: App-logo-spin infinite 0s linear;\n   }\n }\n \n .App-header {\n@@ -29,10 +29,10 @@\n }\n \n @keyframes App-logo-spin {\n   from {\n-    transform: rotate(0deg);\n+    transform: rotateY(0deg);\n   }\n   to {\n-    transform: rotateX(360deg);\n+    transform: rotateY(360deg);\n   }\n }\n"
+                },
+                {
+                    "date": 1678009502173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n @media (prefers-reduced-motion: no-preference) {\n   .App-logo {\n-    animation: App-logo-spin infinite 0s linear;\n+    animation: App-logo-spin infinite 10s linear;\n   }\n }\n \n .App-header {\n"
+                },
+                {
+                    "date": 1678009539309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n @media (prefers-reduced-motion: no-preference) {\n   .App-logo {\n-    animation: App-logo-spin infinite 10s linear;\n+    animation: App-logo-spin infinite 1s linear;\n   }\n }\n \n .App-header {\n"
+                },
+                {
+                    "date": 1678172876550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,38 +0,0 @@\n-.App {\n-  text-align: center;\n-}\n-\n-.App-logo {\n-  height: 40vmin;\n-  pointer-events: none;\n-}\n-\n-@media (prefers-reduced-motion: no-preference) {\n-  .App-logo {\n-    animation: App-logo-spin infinite 1s linear;\n-  }\n-}\n-\n-.App-header {\n-  background-color: #282c34;\n-  min-height: 100vh;\n-  display: flex;\n-  flex-direction: column;\n-  align-items: center;\n-  justify-content: center;\n-  font-size: calc(10px + 2vmin);\n-  color: white;\n-}\n-\n-.App-link {\n-  color: #61dafb;\n-}\n-\n-@keyframes App-logo-spin {\n-  from {\n-    transform: rotateY(0deg);\n-  }\n-  to {\n-    transform: rotateY(360deg);\n-  }\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173780581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-\n+b\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173791255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-b\n\\ No newline at end of file\n+body{\n+  bac\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173796517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body{\n-  bac\n+  background-color: g;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173801824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body{\n-  background-color: g;\n+  background-color: gra;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173807039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body{\n-  background-color: grad;\n+  background-color: gra;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678173807105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n body{\n-  background-color: gr;\n+  background-color: ;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1678009267197,
+            "name": "Commit-0",
+            "content": ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(30deg);\n  }\n}\n"
+        }
+    ]
+}
